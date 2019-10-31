@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A3D9D2623580212001A0DCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3D9D2523580212001A0DCD /* AppDelegate.m */; };
+		5A3D9D2C23580212001A0DCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3D9D2B23580212001A0DCD /* ViewController.m */; };
+		5A3D9D2F23580212001A0DCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3D9D2D23580212001A0DCD /* Main.storyboard */; };
+		5A3D9D3123580216001A0DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A3D9D3023580216001A0DCD /* Assets.xcassets */; };
+		5A3D9D3423580216001A0DCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3D9D3223580216001A0DCD /* LaunchScreen.storyboard */; };
+		5A3D9D3723580216001A0DCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3D9D3623580216001A0DCD /* main.m */; };
+		5A3D9D4123580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3D9D4023580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoTests.m */; };
+		5A3D9D4C23580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3D9D4B23580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoUITests.m */; };
+		5A97D04A236AB20900C35BEC /* FQTouchIDOrFaceIDManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A97D049236AB20900C35BEC /* FQTouchIDOrFaceIDManage.m */; };
+		5A97D04D236AB79F00C35BEC /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A97D04C236AB79F00C35BEC /* NewViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A3D9D3D23580217001A0DCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A3D9D1923580212001A0DCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A3D9D2023580212001A0DCD;
+			remoteInfo = FQTouchIDOrFaceIDToolsDemo;
+		};
+		5A3D9D4823580217001A0DCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A3D9D1923580212001A0DCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A3D9D2023580212001A0DCD;
+			remoteInfo = FQTouchIDOrFaceIDToolsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A3D9D2123580212001A0DCD /* FQTouchIDOrFaceIDToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQTouchIDOrFaceIDToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3D9D2423580212001A0DCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A3D9D2523580212001A0DCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A3D9D2A23580212001A0DCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A3D9D2B23580212001A0DCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A3D9D2E23580212001A0DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A3D9D3023580216001A0DCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A3D9D3323580216001A0DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A3D9D3523580216001A0DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A3D9D3623580216001A0DCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A3D9D3C23580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQTouchIDOrFaceIDToolsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3D9D4023580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQTouchIDOrFaceIDToolsDemoTests.m; sourceTree = "<group>"; };
+		5A3D9D4223580217001A0DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A3D9D4723580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQTouchIDOrFaceIDToolsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3D9D4B23580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQTouchIDOrFaceIDToolsDemoUITests.m; sourceTree = "<group>"; };
+		5A3D9D4D23580217001A0DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A97D048236AB20900C35BEC /* FQTouchIDOrFaceIDManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQTouchIDOrFaceIDManage.h; sourceTree = "<group>"; };
+		5A97D049236AB20900C35BEC /* FQTouchIDOrFaceIDManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQTouchIDOrFaceIDManage.m; sourceTree = "<group>"; };
+		5A97D04B236AB79F00C35BEC /* NewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		5A97D04C236AB79F00C35BEC /* NewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A3D9D1E23580212001A0DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3D9D3923580217001A0DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3D9D4423580217001A0DCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A3D9D1823580211001A0DCD = {
+			isa = PBXGroup;
+			children = (
+				5A3D9D2323580212001A0DCD /* FQTouchIDOrFaceIDToolsDemo */,
+				5A3D9D3F23580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoTests */,
+				5A3D9D4A23580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoUITests */,
+				5A3D9D2223580212001A0DCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A3D9D2223580212001A0DCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A3D9D2123580212001A0DCD /* FQTouchIDOrFaceIDToolsDemo.app */,
+				5A3D9D3C23580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoTests.xctest */,
+				5A3D9D4723580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A3D9D2323580212001A0DCD /* FQTouchIDOrFaceIDToolsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5A97D047236AB1E100C35BEC /* FQTouchIDOrFaceIDManage */,
+				5A3D9D2423580212001A0DCD /* AppDelegate.h */,
+				5A3D9D2523580212001A0DCD /* AppDelegate.m */,
+				5A3D9D2A23580212001A0DCD /* ViewController.h */,
+				5A3D9D2B23580212001A0DCD /* ViewController.m */,
+				5A97D04B236AB79F00C35BEC /* NewViewController.h */,
+				5A97D04C236AB79F00C35BEC /* NewViewController.m */,
+				5A3D9D2D23580212001A0DCD /* Main.storyboard */,
+				5A3D9D3023580216001A0DCD /* Assets.xcassets */,
+				5A3D9D3223580216001A0DCD /* LaunchScreen.storyboard */,
+				5A3D9D3523580216001A0DCD /* Info.plist */,
+				5A3D9D3623580216001A0DCD /* main.m */,
+			);
+			path = FQTouchIDOrFaceIDToolsDemo;
+			sourceTree = "<group>";
+		};
+		5A3D9D3F23580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A3D9D4023580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoTests.m */,
+				5A3D9D4223580217001A0DCD /* Info.plist */,
+			);
+			path = FQTouchIDOrFaceIDToolsDemoTests;
+			sourceTree = "<group>";
+		};
+		5A3D9D4A23580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A3D9D4B23580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoUITests.m */,
+				5A3D9D4D23580217001A0DCD /* Info.plist */,
+			);
+			path = FQTouchIDOrFaceIDToolsDemoUITests;
+			sourceTree = "<group>";
+		};
+		5A97D047236AB1E100C35BEC /* FQTouchIDOrFaceIDManage */ = {
+			isa = PBXGroup;
+			children = (
+				5A97D048236AB20900C35BEC /* FQTouchIDOrFaceIDManage.h */,
+				5A97D049236AB20900C35BEC /* FQTouchIDOrFaceIDManage.m */,
+			);
+			path = FQTouchIDOrFaceIDManage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A3D9D2023580212001A0DCD /* FQTouchIDOrFaceIDToolsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A3D9D5023580217001A0DCD /* Build configuration list for PBXNativeTarget "FQTouchIDOrFaceIDToolsDemo" */;
+			buildPhases = (
+				5A3D9D1D23580212001A0DCD /* Sources */,
+				5A3D9D1E23580212001A0DCD /* Frameworks */,
+				5A3D9D1F23580212001A0DCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FQTouchIDOrFaceIDToolsDemo;
+			productName = FQTouchIDOrFaceIDToolsDemo;
+			productReference = 5A3D9D2123580212001A0DCD /* FQTouchIDOrFaceIDToolsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A3D9D3B23580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A3D9D5323580217001A0DCD /* Build configuration list for PBXNativeTarget "FQTouchIDOrFaceIDToolsDemoTests" */;
+			buildPhases = (
+				5A3D9D3823580217001A0DCD /* Sources */,
+				5A3D9D3923580217001A0DCD /* Frameworks */,
+				5A3D9D3A23580217001A0DCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A3D9D3E23580217001A0DCD /* PBXTargetDependency */,
+			);
+			name = FQTouchIDOrFaceIDToolsDemoTests;
+			productName = FQTouchIDOrFaceIDToolsDemoTests;
+			productReference = 5A3D9D3C23580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A3D9D4623580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A3D9D5623580217001A0DCD /* Build configuration list for PBXNativeTarget "FQTouchIDOrFaceIDToolsDemoUITests" */;
+			buildPhases = (
+				5A3D9D4323580217001A0DCD /* Sources */,
+				5A3D9D4423580217001A0DCD /* Frameworks */,
+				5A3D9D4523580217001A0DCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A3D9D4923580217001A0DCD /* PBXTargetDependency */,
+			);
+			name = FQTouchIDOrFaceIDToolsDemoUITests;
+			productName = FQTouchIDOrFaceIDToolsDemoUITests;
+			productReference = 5A3D9D4723580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A3D9D1923580212001A0DCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = owen;
+				TargetAttributes = {
+					5A3D9D2023580212001A0DCD = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					5A3D9D3B23580217001A0DCD = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 5A3D9D2023580212001A0DCD;
+					};
+					5A3D9D4623580217001A0DCD = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 5A3D9D2023580212001A0DCD;
+					};
+				};
+			};
+			buildConfigurationList = 5A3D9D1C23580212001A0DCD /* Build configuration list for PBXProject "FQTouchIDOrFaceIDToolsDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A3D9D1823580211001A0DCD;
+			productRefGroup = 5A3D9D2223580212001A0DCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A3D9D2023580212001A0DCD /* FQTouchIDOrFaceIDToolsDemo */,
+				5A3D9D3B23580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoTests */,
+				5A3D9D4623580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A3D9D1F23580212001A0DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3D9D3423580216001A0DCD /* LaunchScreen.storyboard in Resources */,
+				5A3D9D3123580216001A0DCD /* Assets.xcassets in Resources */,
+				5A3D9D2F23580212001A0DCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3D9D3A23580217001A0DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3D9D4523580217001A0DCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A3D9D1D23580212001A0DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3D9D2C23580212001A0DCD /* ViewController.m in Sources */,
+				5A97D04A236AB20900C35BEC /* FQTouchIDOrFaceIDManage.m in Sources */,
+				5A97D04D236AB79F00C35BEC /* NewViewController.m in Sources */,
+				5A3D9D2623580212001A0DCD /* AppDelegate.m in Sources */,
+				5A3D9D3723580216001A0DCD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3D9D3823580217001A0DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3D9D4123580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3D9D4323580217001A0DCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3D9D4C23580217001A0DCD /* FQTouchIDOrFaceIDToolsDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A3D9D3E23580217001A0DCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A3D9D2023580212001A0DCD /* FQTouchIDOrFaceIDToolsDemo */;
+			targetProxy = 5A3D9D3D23580217001A0DCD /* PBXContainerItemProxy */;
+		};
+		5A3D9D4923580217001A0DCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A3D9D2023580212001A0DCD /* FQTouchIDOrFaceIDToolsDemo */;
+			targetProxy = 5A3D9D4823580217001A0DCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A3D9D2D23580212001A0DCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A3D9D2E23580212001A0DCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A3D9D3223580216001A0DCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A3D9D3323580216001A0DCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A3D9D4E23580217001A0DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A3D9D4F23580217001A0DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A3D9D5123580217001A0DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FQTouchIDOrFaceIDToolsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQTouchIDOrFaceIDToolsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A3D9D5223580217001A0DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FQTouchIDOrFaceIDToolsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQTouchIDOrFaceIDToolsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A3D9D5423580217001A0DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FQTouchIDOrFaceIDToolsDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQTouchIDOrFaceIDToolsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQTouchIDOrFaceIDToolsDemo.app/FQTouchIDOrFaceIDToolsDemo";
+			};
+			name = Debug;
+		};
+		5A3D9D5523580217001A0DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FQTouchIDOrFaceIDToolsDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQTouchIDOrFaceIDToolsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQTouchIDOrFaceIDToolsDemo.app/FQTouchIDOrFaceIDToolsDemo";
+			};
+			name = Release;
+		};
+		5A3D9D5723580217001A0DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FQTouchIDOrFaceIDToolsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQTouchIDOrFaceIDToolsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FQTouchIDOrFaceIDToolsDemo;
+			};
+			name = Debug;
+		};
+		5A3D9D5823580217001A0DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FQTouchIDOrFaceIDToolsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQTouchIDOrFaceIDToolsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FQTouchIDOrFaceIDToolsDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A3D9D1C23580212001A0DCD /* Build configuration list for PBXProject "FQTouchIDOrFaceIDToolsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3D9D4E23580217001A0DCD /* Debug */,
+				5A3D9D4F23580217001A0DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A3D9D5023580217001A0DCD /* Build configuration list for PBXNativeTarget "FQTouchIDOrFaceIDToolsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3D9D5123580217001A0DCD /* Debug */,
+				5A3D9D5223580217001A0DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A3D9D5323580217001A0DCD /* Build configuration list for PBXNativeTarget "FQTouchIDOrFaceIDToolsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3D9D5423580217001A0DCD /* Debug */,
+				5A3D9D5523580217001A0DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A3D9D5623580217001A0DCD /* Build configuration list for PBXNativeTarget "FQTouchIDOrFaceIDToolsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3D9D5723580217001A0DCD /* Debug */,
+				5A3D9D5823580217001A0DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A3D9D1923580212001A0DCD /* Project object */;
+}
